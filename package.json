@@ -1,6 +1,7 @@
 {
   "name": "letytools",
   "displayName": "lety_flutter_tool",
+  "publisher": "lety",
   "description": "Flutter dev tool for lety",
   "repository": "https://github.com/letyletylety/letytools",
   "version": "0.0.1",
