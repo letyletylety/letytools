@@ -1,5 +1,8 @@
 # letytools README
 
+the vscode extension for flutter dev
+**this extension is for personal use**
+
 ## Features
 
 make new folder
@@ -16,8 +19,8 @@ For example:
 
 This extension contributes the following settings:
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+- `myExtension.enable`: enable/disable this extension
+- `myExtension.thing`: set to `blah` to do something
 
 ## Known Issues
 

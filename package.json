@@ -2,7 +2,7 @@
   "name": "letytools",
   "displayName": "lety_flutter_tool",
   "description": "Flutter dev tool for lety",
-  "repository": {},
+  "repository": "https://github.com/letyletylety/letytools",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.69.0"
