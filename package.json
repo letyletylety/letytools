@@ -4,7 +4,7 @@
   "publisher": "lety",
   "description": "Flutter dev tool for lety",
   "repository": "https://github.com/letyletylety/letytools",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.69.0"
   },
