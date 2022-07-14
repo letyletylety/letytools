@@ -4,7 +4,7 @@
   "publisher": "lety",
   "description": "Flutter dev tool for lety",
   "repository": "https://github.com/letyletylety/letytools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.69.0"
   },
@@ -19,7 +19,7 @@
       },
       {
         "command": "letytools.generateFolder",
-        "title": "Generate Folder"
+        "title": "LetyTool : Generate Folder"
       }
     ]
   },

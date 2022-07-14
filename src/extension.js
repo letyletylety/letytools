@@ -39,9 +39,28 @@ function activate (context) {
       })
 
       // 입력을 받는다.
-      let value = await result.then(function (value) {
-        return value
-      })
+      let value = await result.then(
+        function (value) {
+          return value
+        },
+        function (reason) {
+          vscode.window.showErrorMessage(
+            `folder generation canceled : ${reason}`
+          )
+          return '????'
+        }
+      )
+
+      if (value === '????') {
+        return
+      }
+
+      if (value === '' || value === undefined) {
+        vscode.window.showErrorMessage(
+          `folder generation canceled : empty input`
+        )
+      }
+
       console.log(value)
 
       // 열린 워크스페이스가 없으면 그냥 닫는다.
