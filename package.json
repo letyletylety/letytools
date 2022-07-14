@@ -4,12 +4,16 @@
   "publisher": "lety",
   "description": "Flutter dev tool for lety",
   "repository": "https://github.com/letyletylety/letytools",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.69.0"
   },
-  "categories": ["Other"],
-  "activationEvents": ["onCommand:letytools.generateFolder"],
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:letytools.generateFolder"
+  ],
   "main": "src/extension.js",
   "contributes": {
     "commands": [
