@@ -59,6 +59,7 @@ function activate (context) {
         vscode.window.showErrorMessage(
           `folder generation canceled : empty input`
         )
+        return
       }
 
       console.log(value)
